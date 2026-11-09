@@ -20,6 +20,7 @@ export const appVisuals = {
   gridcraft: { name: 'GridCraft', type: 'SPREADSHEETS', caption: 'Spreadsheets & data analysis', hero: 'hero-sales.webp', color: '#1f9d55', inkLight: '#136938', inkDark: '#5ee089' },
   'craft-anything': { name: 'Craft Anything', type: 'DEVELOPER TOOLS', caption: 'Software exploration & creation', hero: 'workbench.png', color: '#4e7bfb', inkLight: '#1659c4', inkDark: '#74aaff' },
   solidcraft: { name: 'SolidCraft', type: 'THIRD-PARTY APP', caption: 'Independent parametric 3D CAD', icon: 'png', color: '#a5adc0' },
+  mailcraft: { name: 'MailCraft', type: 'THIRD-PARTY APP', caption: 'Mail, calendar, contacts & tasks', icon: 'png', color: '#a5adc0' },
 };
 
 // The lineup is numbered in the order the cards appear on the wiki home page.
@@ -27,7 +28,7 @@ export const homeAppOrder = [
   'artcraft-studio', 'photocraft', 'vectorcraft', 'lightcraft', 'designcraft',
   'figcraft', 'texturecraft', 'materialcraft', 'filmcraft', 'effectcraft', 'anicraft',
   'soundcraft', 'cadcraft', 'wordcraft', 'gridcraft', 'deckcraft', 'pdfcraft',
-  'craft-anything', 'solidcraft',
+  'craft-anything', 'solidcraft', 'mailcraft',
 ];
 
 export function wordmark(name) {
