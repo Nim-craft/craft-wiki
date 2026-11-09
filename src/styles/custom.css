@@ -412,3 +412,5 @@ body:hover ::-webkit-scrollbar-thumb,
   .wiki-footer-bottom { flex-wrap:wrap; padding:13px 16px; }
 }
 
+.sl-markdown-content .badge-row p { display:flex; flex-wrap:wrap; gap:10px; }
+.sl-markdown-content .badge-row img { margin:0; }

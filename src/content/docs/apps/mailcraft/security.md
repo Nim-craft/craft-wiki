@@ -13,12 +13,16 @@ People trust a mail program with years of correspondence and with the sign-ins t
 
 These badges show the project's current results.
 
+<div class="badge-row">
+
 [![CI](https://github.com/UCS-Care-Group/mailcraft/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/UCS-Care-Group/mailcraft/actions/workflows/ci.yml)
 [![Coverage](https://codecov.io/gh/UCS-Care-Group/mailcraft/branch/main/graph/badge.svg)](https://codecov.io/gh/UCS-Care-Group/mailcraft)
 [![Fuzzing](https://github.com/UCS-Care-Group/mailcraft/actions/workflows/fuzz.yml/badge.svg)](https://github.com/UCS-Care-Group/mailcraft/actions/workflows/fuzz.yml)
 [![Quality gate](https://sonarcloud.io/api/project_badges/measure?project=UCS-Care-Group_mailcraft&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=UCS-Care-Group_mailcraft)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/UCS-Care-Group/mailcraft/badge)](https://scorecard.dev/viewer/?uri=github.com/UCS-Care-Group/mailcraft)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/15708/badge)](https://www.bestpractices.dev/projects/15708)
+
+</div>
 
 | Badge | What it checks |
 |---|---|
