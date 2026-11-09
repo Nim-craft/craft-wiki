@@ -7,10 +7,15 @@ description: Common problems with MailCraft and how to solve them.
 To report a bug in MailCraft, open an issue on the [MailCraft issue tracker](https://github.com/UCS-Care-Group/mailcraft/issues).
 :::
 
-## Windows or macOS warns before opening MailCraft
+## Windows SmartScreen says "Windows protected your PC"
 
-- **Cause:** MailCraft releases are not signed yet.
-- **Fix:** check your download against `SHA256SUMS.txt` from the release page, then allow it to run.
+- **Cause:** release signing with Microsoft is still in progress, so SmartScreen doesn't know MailCraft yet.
+- **Fix:** [check your download](/apps/mailcraft/security/#check-your-download), then click **More info** and **Run anyway**. See [Windows SmartScreen warning](/apps/mailcraft/install-update/#windows-smartscreen-warning).
+
+## macOS says it can't check MailCraft
+
+- **Cause:** macOS builds are not notarized yet.
+- **Fix:** open **System Settings › Privacy & Security** and click **Open Anyway**.
 
 ## "Need admin approval" when signing in with Microsoft
 

@@ -26,13 +26,14 @@ MailCraft is an open-source mail, calendar, contacts and tasks program written f
 
 ## Status
 
-MailCraft is in active development and has not reached beta. Releases are not signed yet. What it can't do yet is listed in [Where MailCraft falls short](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/gaps.md).
+MailCraft is in beta. Release signing with Microsoft and Google is in progress, and macOS signing will follow later. Until then, Windows shows a SmartScreen warning when you install it (see [Install and update](/apps/mailcraft/install-update/)). What MailCraft can't do yet is listed in [Where MailCraft falls short](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/gaps.md).
 
 ## Documentation guides
 
 - [Getting started](/apps/mailcraft/getting-started/): try the sample mailbox and add your first account.
 - [Install and update](/apps/mailcraft/install-update/): installers for Windows, macOS, Linux, FreeBSD and the browser.
 - [Workflows](/apps/mailcraft/workflows/): search, rules, calendar, importing mail and automation.
+- [Security](/apps/mailcraft/security/): how MailCraft is built and checked to ship safe code.
 - [Troubleshooting](/apps/mailcraft/troubleshooting/): installer warnings, sign-in approval and known limits.
 
 ## Project links
