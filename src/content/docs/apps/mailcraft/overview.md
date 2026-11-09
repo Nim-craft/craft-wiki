@@ -21,6 +21,7 @@ MailCraft is an open-source mail, calendar, contacts and tasks program written f
 - **Calendar:** day, work-week, week and month views, meetings with attendees, recurrence, reminders and Find a Time.
 - **Accounts:** IMAP and SMTP, Microsoft 365 and Outlook.com sign-in, Gmail and Google Workspace sign-in, and Exchange Server accounts as a preview.
 - **Files:** `.eml`, `.mbox`, `.ics` and `.vcf` in and out, and Outlook `.pst` mail and contacts import as a preview.
+- **Signed and encrypted mail:** S/MIME and OpenPGP.
 - **Safe reading:** nothing in a message runs, and web pictures load only when you ask.
 - **Automation and AI agents:** every action is a command you can run from the CLI, a JSON control channel or an MCP server.
 

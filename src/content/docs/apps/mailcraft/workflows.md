@@ -1,6 +1,8 @@
 ---
 title: Workflows
 description: Search, rules, calendar, importing mail, and automation with the CLI and MCP in MailCraft.
+sidebar:
+  order: 3
 ---
 
 :::note[Third-Party Application]

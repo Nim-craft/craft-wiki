@@ -1,6 +1,8 @@
 ---
 title: Troubleshooting
 description: Common problems with MailCraft and how to solve them.
+sidebar:
+  order: 5
 ---
 
 :::note[Third-Party Application]
@@ -38,7 +40,7 @@ MailCraft keeps sign-ins in the desktop's Secret Service (GNOME Keyring or KWall
 
 ## Something Outlook does is missing
 
-MailCraft doesn't have every Outlook feature yet. Printing, S/MIME and OpenPGP, and `.ost`, `.msg` and `.olm` files are not supported. The full list is in [Where MailCraft falls short](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/gaps.md).
+MailCraft doesn't have every Outlook feature yet. Printing and `.ost`, `.msg` and `.olm` files are not supported. The full list is in [Where MailCraft falls short](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/gaps.md).
 
 ## Getting help
 

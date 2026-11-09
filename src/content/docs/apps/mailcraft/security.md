@@ -1,6 +1,8 @@
 ---
 title: Security
 description: How MailCraft is built, tested and released to ship safe code, and how to report a vulnerability.
+sidebar:
+  order: 4
 ---
 
 :::note[Third-Party Application]
@@ -89,11 +91,11 @@ gh attestation verify <file> -R UCS-Care-Group/mailcraft
 - **Encrypted connections only.** Mail and sign-ins always go over TLS, and certificates are checked.
 - **Sign-ins stay out of files and logs.** Passwords and tokens are kept in memory. If you choose to remember them, they go in your system's credential store. They are never written to MailCraft's own files or logs.
 - **Sign-in verification:** Microsoft and Google accounts sign in with OAuth 2.0 on the provider's own page, so MailCraft never sees those passwords. Google's OAuth verification of MailCraft is in progress.
+- **Signed and encrypted mail:** S/MIME and OpenPGP. Signed and encrypted messages keep their original bytes, so moving or copying a message doesn't break its digital signature.
 - **Agents need a key.** The control port and the MCP server refuse any command that doesn't carry the key. An agent should treat message content as data, never as instructions.
 
 ## Known limits
 
-- S/MIME and OpenPGP aren't supported yet. Signed and encrypted parts show as attachments.
 - MailCraft doesn't encrypt the mailbox file. Use your operating system's disk encryption: BitLocker, FileVault or LUKS.
 - Anyone who can run programs as you on your computer can read your mailbox.
 

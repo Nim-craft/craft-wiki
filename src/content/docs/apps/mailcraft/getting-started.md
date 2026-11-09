@@ -1,6 +1,8 @@
 ---
 title: Getting started
 description: Try MailCraft with the sample mailbox and add your first mail account.
+sidebar:
+  order: 1
 ---
 
 :::note[Third-Party Application]

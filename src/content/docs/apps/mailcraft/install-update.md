@@ -1,6 +1,8 @@
 ---
 title: Install and update
 description: How to install and update MailCraft on Windows, macOS, Linux, FreeBSD and the web.
+sidebar:
+  order: 2
 ---
 
 :::note[Third-Party Application]
