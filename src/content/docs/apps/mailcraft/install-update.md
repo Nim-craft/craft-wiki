@@ -10,7 +10,7 @@ MailCraft is independently distributed by UCS Care Group. ArtCraft Launcher does
 Every release is on the [MailCraft Releases page](https://github.com/UCS-Care-Group/mailcraft/releases/latest) with a `SHA256SUMS.txt` file to check your download against.
 
 :::caution[Releases are not yet signed by the operating systems]
-Release signing with Microsoft and Google is in progress, and macOS signing will follow later. Until then, Windows and macOS warn you before running MailCraft. Each release is still signed by MailCraft's own release key and comes with build provenance (see [Security](/apps/mailcraft/security/#check-your-download)).
+Windows release signing with Microsoft is in progress, and macOS signing will follow later. Until then, Windows and macOS warn you before running MailCraft. Each release is still signed by MailCraft's own release key and comes with build provenance (see [Security](/apps/mailcraft/security/#check-your-download)).
 :::
 
 ## Windows

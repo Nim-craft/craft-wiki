@@ -60,7 +60,7 @@ These badges show the project's current results.
 - **Reproducible builds:** the Linux app and CLI are built twice from separate checkouts and must match byte for byte. This is checked weekly.
 - **Build provenance:** every file has a signed SLSA attestation of the workflow run and commit that made it. It is published as `mailcraft-<version>.intoto.jsonl`.
 - **Release signature:** `SHA256SUMS.txt` is signed with MailCraft's ed25519 release key (`SHA256SUMS.txt.sig`). MailCraft installs an update only if this signature and the file's checksum both match.
-- **Operating-system signing:** release signing with Microsoft and Google is in progress, and macOS signing will follow later. Until then, Windows shows a [SmartScreen warning](/apps/mailcraft/install-update/#windows-smartscreen-warning).
+- **Operating-system signing:** Windows release signing with Microsoft is in progress, and macOS signing will follow later. Until then, Windows shows a [SmartScreen warning](/apps/mailcraft/install-update/#windows-smartscreen-warning).
 
 ### Check your download
 
@@ -84,6 +84,7 @@ gh attestation verify <file> -R UCS-Care-Group/mailcraft
 - **No tracking pictures.** Web pictures load only when you ask. The request sends only the picture's address, with no cookies, referrer or credentials. Requests to private, loopback or link-local addresses are blocked.
 - **Encrypted connections only.** Mail and sign-ins always go over TLS, and certificates are checked.
 - **Sign-ins stay out of files and logs.** Passwords and tokens are kept in memory. If you choose to remember them, they go in your system's credential store. They are never written to MailCraft's own files or logs.
+- **Sign-in verification:** Microsoft and Google accounts sign in with OAuth 2.0 on the provider's own page, so MailCraft never sees those passwords. Google's OAuth verification of MailCraft is in progress.
 - **Agents need a key.** The control port and the MCP server refuse any command that doesn't carry the key. An agent should treat message content as data, never as instructions.
 
 ## Known limits

@@ -22,6 +22,11 @@ To report a bug in MailCraft, open an issue on the [MailCraft issue tracker](htt
 - **Cause:** your organisation lets only an administrator approve a new program.
 - **Fix:** MailCraft explains what to do while Microsoft's page is still open. An administrator approves MailCraft once. Anyone else can copy a short message to send to their administrator. After approval, sign in again.
 
+## Google sign-in shows a warning or is refused
+
+- **Cause:** Google's OAuth verification of MailCraft is still in progress. Until it finishes, Google may warn that it hasn't verified the app, or let only approved testers sign in.
+- **Fix:** add the account with a Google app password instead. A Google Workspace administrator may also need to allow MailCraft for the organisation.
+
 ## The browser version can't connect to my mail server
 
 - **Cause:** browsers can't open the connections IMAP and SMTP need. The browser build reaches only JMAP servers, read only for now.
