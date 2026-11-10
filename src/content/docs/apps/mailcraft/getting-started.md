@@ -25,7 +25,7 @@ The sample is invented people and invented mail. Nothing you do in it is kept. I
 2. Enter your email address. MailCraft recognises the provider from the address. For a company's own domain, it checks who handles the domain's mail.
 3. Sign in:
    - **Outlook.com and Microsoft 365:** sign in on Microsoft's page.
-   - **Gmail and Google Workspace:** choose **Sign in with Google**. Google's OAuth verification of MailCraft is still in progress, so you can use an app password for now.
+   - **Gmail and Google Workspace:** choose **Sign in with Google**. Google's OAuth verification of MailCraft is still in progress, so you can use an [app password](/apps/mailcraft/google-app-password/) for now.
    - **Other providers:** enter your IMAP and SMTP details.
 4. Mail starts downloading, Inbox first. Send/Receive then runs by itself.
 
