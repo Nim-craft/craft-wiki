@@ -5,8 +5,6 @@ sidebar:
   order: 0
 ---
 
-![MailCraft logo](/assets/apps/mailcraft.png)
-
 :::note[Third-Party Application]
 MailCraft is an independent, community-developed application created and maintained by **UCS Care Group** and the MailCraft contributors. It is not developed or officially maintained by ArtCraft, but follows the architecture and conventions of the Craft apps.
 :::
