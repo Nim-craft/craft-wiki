@@ -11,6 +11,8 @@ SolidCraft is an independent, community-developed application created and mainta
 
 SolidCraft is an open-source parametric 3D CAD application written in Rust. Sketch on a plane, constrain and dimension the sketch, turn profiles into solids on a feature timeline, and change a parameter to watch the timeline rebuild.
 
+![SolidCraft 3D CAD workspace showing a parametric enclosure model with features, browser hierarchy, and timeline](/assets/uploads/solidcraft/hero.webp)
+
 ## Features
 
 - **Geometric constraint solver**: Sketch on planes with parameter-driven dimensions, coincident points, tangency, perpendicularity, symmetry, and equality.

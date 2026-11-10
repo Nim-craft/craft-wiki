@@ -11,6 +11,8 @@ MailCraft is an independent, community-developed application created and maintai
 
 MailCraft is an open-source mail, calendar, contacts and tasks program written from scratch in Rust. It has the layout people already know from desktop mail programs: a ribbon, a folder pane, a message list with a reading pane, conversations, flags, categories, rules, a calendar with recurring meetings, people and to-dos. It is a native, GPU-rendered app with no Electron or web view. It also runs in a browser tab through WebAssembly.
 
+![MailCraft desktop mail application showing ribbon, folder navigation, message list, and reading pane](/assets/uploads/mailcraft/hero.webp)
+
 ## Features
 
 - **Mail:** nested folders and favourites, conversations, pinning, flags with due dates, colour categories, junk and archive, and undo and redo for all of it.
