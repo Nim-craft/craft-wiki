@@ -6,7 +6,7 @@ sidebar:
 ---
 
 :::note[Third-Party Application]
-SolidCraft is an independent open-source CAD application maintained by Tangency Labs. For comprehensive upstream documentation, visit [docs.solidcraft.io](https://docs.solidcraft.io/).
+SolidCraft is an independent open-source CAD application maintained by **Tangency Labs**. For comprehensive upstream documentation, visit [docs.solidcraft.io](https://docs.solidcraft.io/).
 :::
 
 SolidCraft is built around parametric, timeline-based solid modeling. Instead of pushing and pulling geometry directly, you define 2D sketches with mathematical constraints and dimensions, then convert them into 3D features.
