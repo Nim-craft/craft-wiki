@@ -27,7 +27,7 @@ To report a bug in MailCraft, open an issue on the [MailCraft issue tracker](htt
 ## Google sign-in shows a warning or is refused
 
 - **Cause:** Google's OAuth verification of MailCraft is still in progress. Until it finishes, Google may warn that it hasn't verified the app, or let only approved testers sign in.
-- **Fix:** add the account with a Google app password instead. A Google Workspace administrator may also need to allow MailCraft for the organisation.
+- **Fix:** add the account with a [Google app password](/apps/mailcraft/google-app-password/) instead. A Google Workspace administrator may also need to allow MailCraft for the organisation.
 
 ## The browser version can't connect to my mail server
 
