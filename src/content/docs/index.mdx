@@ -20,25 +20,43 @@ import WikiAppShowcase from '../../components/WikiAppShowcase.astro';
   </section>
   <div className="wiki-section-heading" id="apps"><div><p className="wiki-eyebrow">THE CRAFT APPS</p><h2>Find your app</h2></div><span>18 APPS</span></div>
 
-  <div className="app-grid" aria-label="Official app documentation">
-    <WikiAppCard slug="artcraft-studio" />
-    <WikiAppCard slug="photocraft" />
-    <WikiAppCard slug="vectorcraft" />
-    <WikiAppCard slug="filmcraft" />
-    <WikiAppCard slug="lightcraft" />
-    <WikiAppCard slug="pdfcraft" />
-    <WikiAppCard slug="effectcraft" />
-    <WikiAppCard slug="anicraft" />
-    <WikiAppCard slug="designcraft" />
-    <WikiAppCard slug="figcraft" />
-    <WikiAppCard slug="texturecraft" />
-    <WikiAppCard slug="materialcraft" />
-    <WikiAppCard slug="wordcraft" />
-    <WikiAppCard slug="soundcraft" />
-    <WikiAppCard slug="deckcraft" />
-    <WikiAppCard slug="cadcraft" />
-    <WikiAppCard slug="gridcraft" />
-    <WikiAppCard slug="craft-anything" />
+  <div className="app-categories">
+    <section className="app-category">
+      <div className="app-category-heading"><h3>AI and generative media</h3><span className="app-category-count">1 APP</span></div>
+      <div className="app-grid"><WikiAppCard slug="artcraft-studio" /></div>
+    </section>
+    <section className="app-category">
+      <div className="app-category-heading"><h3>Graphics and design</h3><span className="app-category-count">7 APPS</span></div>
+      <div className="app-grid">
+        <WikiAppCard slug="photocraft" />
+        <WikiAppCard slug="vectorcraft" />
+        <WikiAppCard slug="lightcraft" />
+        <WikiAppCard slug="designcraft" />
+        <WikiAppCard slug="figcraft" />
+        <WikiAppCard slug="texturecraft" />
+        <WikiAppCard slug="materialcraft" />
+      </div>
+    </section>
+    <section className="app-category">
+      <div className="app-category-heading"><h3>Video and effects</h3><span className="app-category-count">3 APPS</span></div>
+      <div className="app-grid"><WikiAppCard slug="filmcraft" /><WikiAppCard slug="effectcraft" /><WikiAppCard slug="anicraft" /></div>
+    </section>
+    <section className="app-category">
+      <div className="app-category-heading"><h3>Audio</h3><span className="app-category-count">1 APP</span></div>
+      <div className="app-grid"><WikiAppCard slug="soundcraft" /></div>
+    </section>
+    <section className="app-category">
+      <div className="app-category-heading"><h3>CAD and drafting</h3><span className="app-category-count">1 APP</span></div>
+      <div className="app-grid"><WikiAppCard slug="cadcraft" /></div>
+    </section>
+    <section className="app-category">
+      <div className="app-category-heading"><h3>Office</h3><span className="app-category-count">4 APPS</span></div>
+      <div className="app-grid"><WikiAppCard slug="wordcraft" /><WikiAppCard slug="gridcraft" /><WikiAppCard slug="deckcraft" /><WikiAppCard slug="pdfcraft" /></div>
+    </section>
+    <section className="app-category">
+      <div className="app-category-heading"><h3>Developer tools</h3><span className="app-category-count">1 APP</span></div>
+      <div className="app-grid"><WikiAppCard slug="craft-anything" /></div>
+    </section>
   </div>
 
   <div className="wiki-section-heading" id="third-party-apps">

@@ -25,9 +25,9 @@ export const appVisuals = {
 
 // The lineup is numbered in the order the cards appear on the wiki home page.
 export const homeAppOrder = [
-  'artcraft-studio', 'photocraft', 'vectorcraft', 'filmcraft', 'lightcraft',
-  'pdfcraft', 'effectcraft', 'anicraft', 'designcraft', 'figcraft', 'texturecraft',
-  'materialcraft', 'wordcraft', 'soundcraft', 'deckcraft', 'cadcraft', 'gridcraft',
+  'artcraft-studio', 'photocraft', 'vectorcraft', 'lightcraft', 'designcraft',
+  'figcraft', 'texturecraft', 'materialcraft', 'filmcraft', 'effectcraft', 'anicraft',
+  'soundcraft', 'cadcraft', 'wordcraft', 'gridcraft', 'deckcraft', 'pdfcraft',
   'craft-anything', 'solidcraft', 'mailcraft',
 ];
 
