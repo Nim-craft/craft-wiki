@@ -3,7 +3,7 @@ export const apps = [
   ['vectorcraft', 'VectorCraft'], ['filmcraft', 'FilmCraft'], ['lightcraft', 'LightCraft'],
   ['pdfcraft', 'PdfCraft'], ['effectcraft', 'EffectCraft'], ['anicraft', 'AniCraft'], ['designcraft', 'DesignCraft'],
   ['figcraft', 'FigCraft'], ['texturecraft', 'TextureCraft'], ['materialcraft', 'MaterialCraft'],
-  ['wordcraft', 'WordCraft'], ['soundcraft', 'SoundCraft'], ['deckcraft', 'DeckCraft'],
+  ['soundcraft', 'SoundCraft'], ['wordcraft', 'WordCraft'], ['deckcraft', 'DeckCraft'],
   ['cadcraft', 'CADCraft'], ['gridcraft', 'GridCraft'], ['craft-anything', 'Craft Anything'],
 ];
 
