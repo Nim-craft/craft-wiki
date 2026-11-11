@@ -14,7 +14,7 @@ const slugs = [
   {slugs.map((slug) => {
     const app = appVisuals[slug];
     return <a href={`/apps/${slug}/overview/`} title={app.name}>
-      <img src={`/assets/apps/${slug}.webp`} alt="" loading="lazy" />
+      <img src={`/assets/apps/${slug}.webp`} alt="" loading="eager" decoding="async" />
       <span>{app.name}</span>
     </a>;
   })}
