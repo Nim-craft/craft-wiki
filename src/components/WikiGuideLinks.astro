@@ -7,16 +7,16 @@ const pages = await appSidebar(slug);
 ---
 <div class="wiki-guide-links">
   {pages.map(({ slug: guide, label, children }) => {
-    const link = <a href={`/apps/${slug}/${guide}/`} aria-current={current(guide)}>{label}</a>;
+    const link = <a href={`/apps/${slug}/${guide}/`} aria-current={current(guide)}><span>{label}</span></a>;
     if (!children.length) return link;
     const open = !!current(guide) || children.some((child) => current(child.slug));
     return (
       <div class="wiki-guide-parent">
         {link}
         <details class="wiki-guide-group" open={open}>
-          <summary aria-label={`${label} pages`}><span class="wiki-guide-chevron" aria-hidden="true">⌄</span></summary>
+          <summary aria-label={`${label} pages`}><span class="wiki-chevron" aria-hidden="true"></span></summary>
           <div class="wiki-guide-children">
-            {children.map((child) => <a href={`/apps/${slug}/${child.slug}/`} aria-current={current(child.slug)}>{child.label}</a>)}
+            {children.map((child) => <a href={`/apps/${slug}/${child.slug}/`} aria-current={current(child.slug)}><span>{child.label}</span></a>)}
           </div>
         </details>
       </div>
