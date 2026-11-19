@@ -6,7 +6,9 @@ sidebar:
   label: "2. Other assistants"
 ---
 
-Any assistant that supports MCP can use a Craft app. Look in its settings for **MCP**, **MCP servers**, **tools** or **connectors**, and add a server with these details:
+Any assistant that supports **local** MCP servers, ones that run on your computer, can use a Craft app. Some assistants only connect to servers on the internet, such as ChatGPT on the web; they can't use a Craft app.
+
+Look in its settings for **MCP**, **MCP servers**, **tools** or **connectors**, and add a server with these details:
 
 | Setting | What to enter |
 | --- | --- |

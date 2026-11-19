@@ -10,7 +10,7 @@ Work through these in order. Most problems are the path, the settings file, or n
 
 - **Restart the assistant fully.** For the Claude desktop app, quit it from the system tray or with **Cmd+Q**; closing the window isn't enough.
 - **Check you edited the right file.** Open it from the assistant's own settings, as Step 2 shows, rather than looking for it yourself.
-- **Check the file is valid.** One missing comma or quote stops every server in it from loading. Paste it into a JSON checker such as [jsonlint.com](https://jsonlint.com) to find the mistake.
+- **Check the file is valid.** One missing comma or quote stops every server in it from loading. Paste a `.json` file into a JSON checker such as [jsonlint.com](https://jsonlint.com) to find the mistake. Codex's `config.toml` is a different format, so a JSON checker can't check it; use `codex mcp add` instead, which writes the file for you.
 
 ## "Command not found", "ENOENT" or "spawn ... failed"
 

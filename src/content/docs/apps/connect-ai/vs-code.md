@@ -30,8 +30,8 @@ VS Code saves it to a file called `mcp.json` and opens it, so you can check it.
 
 ## 3. Start it and check
 
-1. The first time it starts, VS Code asks whether you trust the server. Choose **Trust**.
-2. Open the Command Palette again and run **MCP: List Servers**. Your app should be listed as running.
+1. Open the Command Palette again and run **MCP: List Servers**. Your app should be listed as running.
+2. If it isn't running, select it and choose **Start Server**. The first time it starts, VS Code asks whether you trust the server; choose **Trust**.
 3. In the Copilot Chat view, switch to **Agent** mode, then open the tools button in the message box. Your app's tools are listed there.
 
 Next: [Try it out](/apps/connect-ai/try-it-out/).

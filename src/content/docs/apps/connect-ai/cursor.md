@@ -17,7 +17,9 @@ You can also open the file yourself. It's in the `.cursor` folder in your home f
 
 ## 2. Add your Craft app
 
-Replace everything in the file with this, using your own full path from [Step 1](/apps/connect-ai/find-your-app/):
+If the file already lists other servers, keep them: add yours inside the same `mcpServers` section, with a comma between each. The [Claude desktop app page](/apps/connect-ai/claude-desktop/#if-the-file-already-has-settings) has an example.
+
+If the file is empty, replace everything in it with this, using your own full path from [Step 1](/apps/connect-ai/find-your-app/):
 
 ```json
 {
@@ -31,7 +33,7 @@ Replace everything in the file with this, using your own full path from [Step 1]
 }
 ```
 
-On Windows, double every backslash, as above. On macOS and Linux, the path looks like `"/Users/sam/Tools/wordcraft-cli"`. If the file already lists other servers, add yours inside the same `mcpServers` section, with a comma between each; the [Claude desktop app page](/apps/connect-ai/claude-desktop/#if-the-file-already-has-settings) has an example.
+On Windows, double every backslash, as above. On macOS and Linux, the path looks like `"/Users/sam/Tools/wordcraft-cli"`.
 
 Save the file.
 

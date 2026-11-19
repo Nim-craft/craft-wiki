@@ -10,7 +10,10 @@ Your assistant needs two things from you: the **command**, which is where the ap
 
 ## Your app's command
 
-Find your app in this table. Some apps need a folder as well, so the assistant can only use files in it. Replace `<folder>` with the full path to a folder you choose, as shown in [Get the full path](#get-the-full-path).
+Find your app in this table. Some apps need a folder as well; replace `<folder>` with the full path to a folder you choose, as shown in [Get the full path](#get-the-full-path).
+
+- For MaterialCraft, PdfCraft, PhotoCraft and TextureCraft, the folders are a limit: the assistant can only use files inside them.
+- For LightCraft, the folder is just the photos to start with. It doesn't limit where the assistant can save.
 
 | App | Command | Arguments | More detail |
 | --- | --- | --- | --- |
