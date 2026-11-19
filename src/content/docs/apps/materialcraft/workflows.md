@@ -129,6 +129,10 @@ Choose **Edit › Preferences...** to set the language (English or Arabic), brig
 
 ## Use it with an AI assistant
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 MaterialCraft's command-line tool, `materialcraft-cli`, has an [MCP](https://modelcontextprotocol.io) server, so Claude and other AI assistants can build graphs, set parameters and export maps. Give it the folders it may read and write:
 
 ```bash

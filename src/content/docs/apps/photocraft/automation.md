@@ -46,6 +46,10 @@ To find a command's name and settings, run `photocraft-cli commands`.
 
 ## Connect an AI assistant
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 Start the MCP server with a folder the assistant may read from and a folder it may write to:
 
 ```bash

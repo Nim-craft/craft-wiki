@@ -8,7 +8,7 @@ const apps = [
   ['FigCraft', 'figcraft'], ['TextureCraft', 'texturecraft'], ['MaterialCraft', 'materialcraft'],
   ['WordCraft', 'wordcraft'], ['SoundCraft', 'soundcraft'], ['DeckCraft', 'deckcraft'],
   ['CADCraft', 'cadcraft'], ['GridCraft', 'gridcraft'], ['Craft Anything', 'craft-anything'],
-  ['SolidCraft', 'solidcraft'], ['MailCraft', 'mailcraft'],
+  ['SolidCraft', 'solidcraft'], ['MailCraft', 'mailcraft'], ['Connect an AI assistant', 'connect-ai'],
 ];
 
 export default defineConfig({

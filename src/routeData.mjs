@@ -1,5 +1,5 @@
 import { defineRouteMiddleware } from '@astrojs/starlight/route-data';
-import { allApps } from './data/apps.mjs';
+import { allApps, sharedGuides } from './data/apps.mjs';
 import { appSidebar } from './lib/appSidebar.mjs';
 
 // Points an app page's previous and next links at its neighbors in the custom sidebar: each app in
@@ -14,7 +14,9 @@ export const onRequest = defineRouteMiddleware(async (context) => {
   if (!match) return;
 
   const pages = [];
-  for (const [app] of allApps) {
+  // A shared guide's pages link only to each other, not on into the apps.
+  const guide = sharedGuides.find(([slug]) => slug === match[1]);
+  for (const [app] of guide ? [guide] : allApps) {
     for (const page of await appSidebar(app)) {
       pages.push({ app, page });
       for (const child of page.children) pages.push({ app, page: child });

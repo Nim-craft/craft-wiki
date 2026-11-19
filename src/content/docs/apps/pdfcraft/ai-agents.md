@@ -7,6 +7,10 @@ sidebar:
 
 AI assistants that support the [Model Context Protocol](https://modelcontextprotocol.io) (MCP) can use PdfCraft's tools: open PDFs, read their text, add comments, fill forms, organize pages and save the result. This is off unless you set it up. PdfCraft never starts it on its own, and it opens no network port.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 ## Get the command-line tool
 
 Assistants talk to PdfCraft through its command-line tool, `pdfcraft-cli`:

@@ -7,6 +7,10 @@ sidebar:
 
 GridCraft is built so that AI assistants can use it as well as people. Every ribbon button, menu item and dialog is a command, and any assistant that supports the [Model Context Protocol](https://modelcontextprotocol.io) (MCP) can run them. It can read and write cells, enter formulas, format ranges, make tables and charts, sort and filter, and save the result as .xlsx or CSV.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 ## Get the command-line tool
 
 Assistants talk to GridCraft through its command-line tool, `gridcraft-cli`:

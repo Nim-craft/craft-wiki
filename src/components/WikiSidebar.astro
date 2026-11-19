@@ -1,5 +1,5 @@
 ---
-import { apps, appCategories, thirdPartyApps } from '../data/apps.mjs';
+import { apps, appCategories, thirdPartyApps, sharedGuides } from '../data/apps.mjs';
 import WikiAppName from './WikiAppName.astro';
 import WikiGuideLinks from './WikiGuideLinks.astro';
 const pathname = Astro.url.pathname;
@@ -9,6 +9,15 @@ const appBySlug = Object.fromEntries(apps.map((app) => [app[0], app]));
   <label class="wiki-search-label" for="wiki-app-search">Find an app</label>
   <input id="wiki-app-search" type="search" placeholder="Search apps..." autocomplete="off" />
   <a href="/" class:list={['wiki-home-link', { active: pathname === '/' }]}><span>All documentation</span></a>
+  <p class="wiki-sidebar-label">GUIDES</p>
+  <div class="wiki-app-list">
+    {sharedGuides.map(([slug, name, ext]) => (
+      <details class="wiki-app-group" data-name={name.toLowerCase()} open={pathname.startsWith(`/apps/${slug}/`)}>
+        <summary><img src={`/assets/apps/${slug}.${ext}`} alt="" /><span>{name}</span><span class="wiki-chevron" aria-hidden="true"></span></summary>
+        <WikiGuideLinks slug={slug} />
+      </details>
+    ))}
+  </div>
   <p class="wiki-sidebar-label">OFFICIAL APPS</p>
   <div class="wiki-official-apps">
     {appCategories.map(([category, slugs]) => (

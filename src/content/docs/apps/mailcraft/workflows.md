@@ -56,6 +56,10 @@ mailcraft-cli commands
 
 ## AI agents (MCP)
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 Every action in MailCraft is a command. The same commands drive the ribbon, the keyboard, the CLI, a JSON control channel and an MCP server.
 
 ```bash

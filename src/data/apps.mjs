@@ -26,6 +26,10 @@ export const thirdPartyApps = [
 ];
 
 export const allApps = [...apps, ...thirdPartyApps];
+
+// Guides that cover every app. Their pages live in src/content/docs/apps/<slug>/ like an app's, so the
+// sidebar, the editor and its commit rules treat them the same way.
+export const sharedGuides = [['connect-ai', 'Connect an AI assistant', 'svg']];
 // The pages every app has, in sidebar order. The sidebar uses this order for a page that has no
 // sidebar.order of its own (src/lib/appSidebar.mjs).
 export const guides = [

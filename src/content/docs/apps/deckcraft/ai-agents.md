@@ -7,6 +7,10 @@ sidebar:
 
 Every button in DeckCraft runs a command, and AI assistants can run the same commands. Any assistant that supports the [Model Context Protocol](https://modelcontextprotocol.io) (MCP) can create slides, fill them, format them and save the result as .pptx, .deckcraft or PDF.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 ## Get the command-line tool
 
 Assistants talk to DeckCraft through its command-line tool, `deckcraft-cli`:

@@ -7,6 +7,10 @@ sidebar:
 
 Everything you can do in FilmCraft's menus, buttons and sliders is a command. An AI assistant can run the same commands through FilmCraft's MCP server, so it can cut, trim, grade, mix and export a sequence the way you would. Any assistant that supports MCP (the Model Context Protocol) works, such as Claude Code.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 The MCP server is part of `filmcraft-cli`, FilmCraft's command-line tool.
 
 ## Find filmcraft-cli

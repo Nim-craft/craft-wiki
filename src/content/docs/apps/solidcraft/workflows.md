@@ -91,6 +91,10 @@ The SolidCraft guide has a page for most of these.
 
 ## Automation and AI Agents (MCP)
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 Every action in SolidCraft is a command, so scripts and AI assistants can run them too.
 
 - From the command line: `solidcraft-cli run bracket.json --out bracket.step` builds a JSON design and exports it without the app.
