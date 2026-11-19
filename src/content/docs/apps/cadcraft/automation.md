@@ -91,6 +91,10 @@ Set these environment variables before you start CADCraft. A blank value counts 
 
 ## Let an AI agent draw
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 CADCraft has an [MCP](https://modelcontextprotocol.io) server, so an AI assistant that supports MCP can draw and edit with it. The agent can type at the command line like a person, run any command, read back what is in the drawing to check its work, and look at a picture of it.
 
 To give an agent its own drawing, with no window, add this to your MCP client's settings:

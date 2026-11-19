@@ -7,6 +7,10 @@ sidebar:
 
 SoundCraft is built so that AI assistants can use it as well as people. Everything you can click is also a command, and any assistant that supports the [Model Context Protocol](https://modelcontextprotocol.io) (MCP) can run those commands: add tracks, import audio, edit clips, set levels, add plugins, write automation, bounce and save. The assistant can check its own work by reading back exactly what is in the session.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 ## Get the command-line tool
 
 Assistants talk to SoundCraft through its command-line tool, `soundcraft-cli`:

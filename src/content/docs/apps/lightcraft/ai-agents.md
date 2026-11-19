@@ -7,6 +7,10 @@ sidebar:
 
 Everything you can do in LightCraft's menus, sliders and tools is a command. An AI assistant can run the same commands through LightCraft's MCP server, so it can rate a shoot, develop photos, add masks and export them, and see the result. Any assistant that supports MCP (the Model Context Protocol) works, such as Claude Code.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 The MCP server is part of `lightcraft-cli`, LightCraft's command-line tool. The Windows installer and the Linux `.deb` and `.rpm` packages include it (on Linux it is `/usr/bin/lightcraft-cli`). On a Mac it is a separate download, `lightcraft-cli-<ver>-macos-universal.zip`, on the [release page](https://github.com/storytold/lightcraft/releases/latest). Use the CLI from the same release as the app.
 
 ## Without a window

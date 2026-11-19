@@ -7,6 +7,10 @@ sidebar:
 
 DesignCraft is built so that AI assistants can use it as well as people. Any assistant that supports the [Model Context Protocol](https://modelcontextprotocol.io) (MCP) can create documents, draw frames, set text, apply styles, place pictures, and look at the pages it has made. That includes Claude, OpenAI's Codex, Cursor and GitHub Copilot in VS Code.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 ## Get the command-line tool
 
 Assistants talk to DesignCraft through its command-line tool, `designcraft-cli`:

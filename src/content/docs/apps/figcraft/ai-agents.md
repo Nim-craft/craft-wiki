@@ -7,6 +7,10 @@ sidebar:
 
 Every menu item, tool and drag in FigCraft runs a command, and AI assistants can run the same commands. Any assistant that supports the [Model Context Protocol](https://modelcontextprotocol.io) (MCP) can create and edit layers, run menu commands, inspect the result and look at it as an image.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 ## Get the command-line tool
 
 Assistants talk to FigCraft through its command-line tool, `figcraft-cli`:

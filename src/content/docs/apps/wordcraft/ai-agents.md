@@ -7,6 +7,10 @@ sidebar:
 
 WordCraft is built so that AI assistants can use it as well as people. Any assistant that supports the [Model Context Protocol](https://modelcontextprotocol.io) (MCP) can create documents, edit them, format them and save them as .docx or PDF. That includes Claude, OpenAI's Codex, Cursor and GitHub Copilot in VS Code.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 ## Get the command-line tool
 
 Assistants talk to WordCraft through its command-line tool, `wordcraft-cli`:

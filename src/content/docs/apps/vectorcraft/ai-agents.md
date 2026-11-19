@@ -12,6 +12,10 @@ summary: Let an AI assistant draw, edit and export through the MCP server.
 
 VectorCraft comes with a [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server, so an AI assistant such as Claude Code can draw, edit, inspect and export VectorCraft documents. The assistant uses the same commands as VectorCraft's menus, tools and panels.
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 VectorCraft has no AI of its own and doesn't connect to an AI service. You bring the assistant; VectorCraft gives it the tools.
 
 ## Two ways to work

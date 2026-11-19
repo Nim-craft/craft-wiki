@@ -226,6 +226,10 @@ craft-anything-cli capabilities             # what this install can do
 
 ## From an AI agent (MCP)
 
+:::tip[New to this?]
+[Connect an AI assistant](/apps/connect-ai/overview/) walks you through it step by step.
+:::
+
 ```bash
 craft-anything-cli mcp              # serve the essential tools to an MCP client
 craft-anything-cli mcp --all-tools  # serve every tool
