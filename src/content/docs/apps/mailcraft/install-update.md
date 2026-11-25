@@ -9,7 +9,7 @@ sidebar:
 MailCraft is independently distributed by UCS Care Group. ArtCraft Launcher does not distribute third-party applications.
 :::
 
-Every release is on the [MailCraft Releases page](https://github.com/UCS-Care-Group/mailcraft/releases/latest) with a `SHA256SUMS.txt` file to check your download against.
+Every release is on the [MailCraft Releases page](https://github.com/UCSLabs/mailcraft/releases/latest) with a `SHA256SUMS.txt` file to check your download against.
 
 :::caution[Releases are not yet signed by the operating systems]
 Windows release signing with Microsoft is in progress, and macOS signing will follow later. Until then, Windows and macOS warn you before running MailCraft. Each release is still signed by MailCraft's own release key and comes with build provenance (see [Security](/apps/mailcraft/security/#check-your-download)).
@@ -31,7 +31,7 @@ Windows Defender SmartScreen will warn you when you open the installer, because 
 Your browser may also flag the download as uncommon. Choose **Keep** to keep it.
 
 :::danger
-Only click **Run anyway** for a file you downloaded from the [MailCraft Releases page](https://github.com/UCS-Care-Group/mailcraft/releases). If you got MailCraft from anywhere else, delete it.
+Only click **Run anyway** for a file you downloaded from the [MailCraft Releases page](https://github.com/UCSLabs/mailcraft/releases). If you got MailCraft from anywhere else, delete it.
 :::
 
 ## macOS
@@ -85,7 +85,7 @@ Organisations can turn off automatic updates for everyone on a computer by insta
 MailCraft needs Rust 1.95 or later.
 
 ```bash
-git clone https://github.com/UCS-Care-Group/mailcraft
+git clone https://github.com/UCSLabs/mailcraft
 cd mailcraft
 cargo run --release -p mailcraft -- --sample
 ```

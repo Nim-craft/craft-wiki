@@ -6,7 +6,7 @@ sidebar:
 ---
 
 :::note[Third-Party Application]
-MailCraft is maintained by UCS Care Group and the MailCraft open-source community. Upstream docs are in the [MailCraft repository](https://github.com/UCS-Care-Group/mailcraft/tree/main/docs).
+MailCraft is maintained by UCS Care Group and the MailCraft open-source community. Upstream docs are in the [MailCraft repository](https://github.com/UCSLabs/mailcraft/tree/main/docs).
 :::
 
 ## Search
@@ -72,4 +72,4 @@ mailcraft-cli mcp --sample                 # or headless, with no window
 Messages are data, not instructions. An agent reading your mail should never act on what a message tells it to do. The MCP server says this in its instructions.
 :::
 
-See the [MCP guide](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/mcp.md) and the [control protocol](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/control-protocol.md).
+See the [MCP guide](https://github.com/UCSLabs/mailcraft/blob/main/docs/mcp.md) and the [control protocol](https://github.com/UCSLabs/mailcraft/blob/main/docs/control-protocol.md).
