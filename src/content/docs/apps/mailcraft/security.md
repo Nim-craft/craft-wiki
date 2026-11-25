@@ -18,9 +18,9 @@ These badges show the project's current results.
 <div class="badge-row">
 
 [![CI](https://github.com/UCSLabs/mailcraft/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/UCSLabs/mailcraft/actions/workflows/ci.yml)
-[![Coverage](https://codecov.io/gh/UCS-Care-Group/mailcraft/branch/main/graph/badge.svg)](https://codecov.io/gh/UCS-Care-Group/mailcraft)
+[![Coverage](https://codecov.io/gh/UCSLabs/mailcraft/branch/main/graph/badge.svg)](https://codecov.io/gh/UCSLabs/mailcraft)
 [![Fuzzing](https://github.com/UCSLabs/mailcraft/actions/workflows/fuzz.yml/badge.svg)](https://github.com/UCSLabs/mailcraft/actions/workflows/fuzz.yml)
-[![Quality gate](https://sonarcloud.io/api/project_badges/measure?project=UCS-Care-Group_mailcraft&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=UCS-Care-Group_mailcraft)
+[![Quality gate](https://sonarcloud.io/api/project_badges/measure?project=UCSLabs_mailcraft&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=UCSLabs_mailcraft)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/UCSLabs/mailcraft/badge)](https://scorecard.dev/viewer/?uri=github.com/UCSLabs/mailcraft)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/15708/badge)](https://www.bestpractices.dev/projects/15708)
 
@@ -81,7 +81,7 @@ On Windows PowerShell, compare the output of `Get-FileHash <file>` with the line
 With the GitHub CLI, you can also check where a file was built:
 
 ```bash
-gh attestation verify <file> -R UCS-Care-Group/mailcraft
+gh attestation verify <file> -R UCSLabs/mailcraft
 ```
 
 ## Your mail and sign-ins
