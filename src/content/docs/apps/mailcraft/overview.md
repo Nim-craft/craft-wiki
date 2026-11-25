@@ -9,7 +9,7 @@ sidebar:
 MailCraft is an independent, community-developed application created and maintained by **UCS Care Group** and the MailCraft contributors. It is not developed or officially maintained by ArtCraft, but follows the architecture and conventions of the Craft apps.
 :::
 
-MailCraft is an open-source mail, calendar, contacts and tasks program written from scratch in Rust. It has the layout people already know from desktop mail programs: a ribbon, a folder pane, a message list with a reading pane, conversations, flags, categories, rules, a calendar with recurring meetings, people and to-dos. It is a native, GPU-rendered app with no Electron or web view. It also runs in a browser tab through WebAssembly.
+MailCraft is an open-source mail, calendar, contacts and tasks program written from scratch in Rust. It has a ribbon, a folder pane, a message list with a reading pane, conversations, flags, categories, rules, a calendar with recurring meetings, people and to-dos. It is a native, GPU-rendered app with no Electron or web view. It also runs in a browser tab through WebAssembly.
 
 ![MailCraft desktop mail application showing ribbon, folder navigation, message list, and reading pane](/assets/uploads/mailcraft/hero.webp)
 
@@ -20,7 +20,7 @@ MailCraft is an open-source mail, calendar, contacts and tasks program written f
 - **Writing:** rich text sent as HTML with a plain-text part, attachments, drafts, signatures with a logo, and several messages open at once.
 - **Calendar:** day, work-week, week and month views, meetings with attendees, recurrence, reminders and Find a Time.
 - **Accounts:** IMAP and SMTP, Microsoft 365 and Outlook.com sign-in, Gmail and Google Workspace sign-in, and Exchange Server accounts as a preview.
-- **Files:** `.eml`, `.mbox`, `.ics` and `.vcf` in and out, and Outlook `.pst` mail and contacts import as a preview.
+- **Files:** `.eml`, `.mbox`, `.ics` and `.vcf` in and out, and `.pst` mail and contacts import as a preview.
 - **Signed and encrypted mail:** S/MIME and OpenPGP.
 - **Safe reading:** nothing in a message runs, and web pictures load only when you ask.
 - **Automation and AI agents:** every action is a command you can run from the CLI, a JSON control channel or an MCP server.
@@ -44,4 +44,4 @@ MailCraft is in beta. Windows release signing with Microsoft is in progress, and
 - [MailCraft on GitHub](https://github.com/UCSLabs/mailcraft)
 - [Issue tracker](https://github.com/UCSLabs/mailcraft/issues)
 
-MailCraft is not affiliated with Microsoft. Outlook is a trademark of Microsoft Corporation.
+MailCraft is not affiliated with Microsoft.
