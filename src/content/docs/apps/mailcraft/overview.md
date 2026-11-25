@@ -27,7 +27,7 @@ MailCraft is an open-source mail, calendar, contacts and tasks program written f
 
 ## Status
 
-MailCraft is in beta. Windows release signing with Microsoft is in progress, and macOS signing will follow later. Until then, Windows shows a SmartScreen warning when you install it (see [Install and update](/apps/mailcraft/install-update/)). Google's OAuth verification of MailCraft is also in progress, which affects signing in with Google (see [Troubleshooting](/apps/mailcraft/troubleshooting/#google-sign-in-shows-a-warning-or-is-refused)). What MailCraft can't do yet is listed in [Where MailCraft falls short](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/gaps.md).
+MailCraft is in beta. Windows release signing with Microsoft is in progress, and macOS signing will follow later. Until then, Windows shows a SmartScreen warning when you install it (see [Install and update](/apps/mailcraft/install-update/)). Google's OAuth verification of MailCraft is also in progress, which affects signing in with Google (see [Troubleshooting](/apps/mailcraft/troubleshooting/#google-sign-in-shows-a-warning-or-is-refused)). What MailCraft can't do yet is listed in [Where MailCraft falls short](https://github.com/UCSLabs/mailcraft/blob/main/docs/gaps.md).
 
 ## Documentation guides
 
@@ -36,11 +36,12 @@ MailCraft is in beta. Windows release signing with Microsoft is in progress, and
 - [Workflows](/apps/mailcraft/workflows/): search, rules, calendar, importing mail and automation.
 - [Security](/apps/mailcraft/security/): how MailCraft is built and checked to ship safe code.
 - [Troubleshooting](/apps/mailcraft/troubleshooting/): installer warnings, sign-in approval and known limits.
+- [Help and support](/apps/mailcraft/support/): where to get help, report bugs, download MailCraft and contact the team.
 
 ## Project links
 
 - [MailCraft website](https://mailcraft.work/)
-- [MailCraft on GitHub](https://github.com/UCS-Care-Group/mailcraft)
-- [Issue tracker](https://github.com/UCS-Care-Group/mailcraft/issues)
+- [MailCraft on GitHub](https://github.com/UCSLabs/mailcraft)
+- [Issue tracker](https://github.com/UCSLabs/mailcraft/issues)
 
 MailCraft is not affiliated with Microsoft. Outlook is a trademark of Microsoft Corporation.
