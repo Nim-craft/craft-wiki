@@ -6,7 +6,7 @@ sidebar:
 ---
 
 :::note[Third-Party Application]
-To report a bug in MailCraft, open an issue on the [MailCraft issue tracker](https://github.com/UCS-Care-Group/mailcraft/issues).
+To report a bug in MailCraft, open an issue on the [MailCraft issue tracker](https://github.com/UCSLabs/mailcraft/issues).
 :::
 
 ## Windows SmartScreen says "Windows protected your PC"
@@ -40,9 +40,9 @@ MailCraft keeps sign-ins in the desktop's Secret Service (GNOME Keyring or KWall
 
 ## Something Outlook does is missing
 
-MailCraft doesn't have every Outlook feature yet. Printing and `.ost`, `.msg` and `.olm` files are not supported. The full list is in [Where MailCraft falls short](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/gaps.md).
+MailCraft doesn't have every Outlook feature yet. Printing and `.ost`, `.msg` and `.olm` files are not supported. The full list is in [Where MailCraft falls short](https://github.com/UCSLabs/mailcraft/blob/main/docs/gaps.md).
 
 ## Getting help
 
-- [MailCraft issue tracker](https://github.com/UCS-Care-Group/mailcraft/issues)
-- [MailCraft on GitHub](https://github.com/UCS-Care-Group/mailcraft)
+- [MailCraft issue tracker](https://github.com/UCSLabs/mailcraft/issues)
+- [MailCraft on GitHub](https://github.com/UCSLabs/mailcraft)

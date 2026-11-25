@@ -6,7 +6,7 @@ sidebar:
 ---
 
 :::note[Third-Party Application]
-MailCraft is maintained by UCS Care Group. This page summarises the project's own [security policy](https://github.com/UCS-Care-Group/mailcraft/blob/main/SECURITY.md) and [threat model](https://github.com/UCS-Care-Group/mailcraft/blob/main/docs/threat-model.md).
+MailCraft is maintained by UCS Care Group. This page summarises the project's own [security policy](https://github.com/UCSLabs/mailcraft/blob/main/SECURITY.md) and [threat model](https://github.com/UCSLabs/mailcraft/blob/main/docs/threat-model.md).
 :::
 
 People trust a mail program with years of correspondence and with the sign-ins to their mail. MailCraft treats security problems as more important than new features.
@@ -17,11 +17,11 @@ These badges show the project's current results.
 
 <div class="badge-row">
 
-[![CI](https://github.com/UCS-Care-Group/mailcraft/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/UCS-Care-Group/mailcraft/actions/workflows/ci.yml)
+[![CI](https://github.com/UCSLabs/mailcraft/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/UCSLabs/mailcraft/actions/workflows/ci.yml)
 [![Coverage](https://codecov.io/gh/UCS-Care-Group/mailcraft/branch/main/graph/badge.svg)](https://codecov.io/gh/UCS-Care-Group/mailcraft)
-[![Fuzzing](https://github.com/UCS-Care-Group/mailcraft/actions/workflows/fuzz.yml/badge.svg)](https://github.com/UCS-Care-Group/mailcraft/actions/workflows/fuzz.yml)
+[![Fuzzing](https://github.com/UCSLabs/mailcraft/actions/workflows/fuzz.yml/badge.svg)](https://github.com/UCSLabs/mailcraft/actions/workflows/fuzz.yml)
 [![Quality gate](https://sonarcloud.io/api/project_badges/measure?project=UCS-Care-Group_mailcraft&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=UCS-Care-Group_mailcraft)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/UCS-Care-Group/mailcraft/badge)](https://scorecard.dev/viewer/?uri=github.com/UCS-Care-Group/mailcraft)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/UCSLabs/mailcraft/badge)](https://scorecard.dev/viewer/?uri=github.com/UCSLabs/mailcraft)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/15708/badge)](https://www.bestpractices.dev/projects/15708)
 
 </div>
@@ -101,7 +101,7 @@ gh attestation verify <file> -R UCS-Care-Group/mailcraft
 
 ## Report a vulnerability
 
-**Please don't open a public issue.** [Report it privately on GitHub](https://github.com/UCS-Care-Group/mailcraft/security/advisories/new).
+**Please don't open a public issue.** [Report it privately on GitHub](https://github.com/UCSLabs/mailcraft/security/advisories/new).
 
 Include the version (from **File › About**), your platform and the steps to reproduce it. Use made-up mail and `example.org` addresses, and never send real mail, passwords or tokens. The project aims to reply within 3 working days, agree a fix and a disclosure date with you, and credit you in the advisory if you want.
 

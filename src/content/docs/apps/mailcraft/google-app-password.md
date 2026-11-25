@@ -5,7 +5,7 @@ parent: getting-started
 ---
 
 :::note[Third-Party Application]
-MailCraft is an independent open-source application maintained by UCS Care Group. For upstream documentation, see the [MailCraft repository](https://github.com/UCS-Care-Group/mailcraft).
+MailCraft is an independent open-source application maintained by UCS Care Group. For upstream documentation, see the [MailCraft repository](https://github.com/UCSLabs/mailcraft).
 :::
 
 While Google reviews MailCraft, **Sign in with Google** works only for invited testers. Everyone else adds a Gmail or Google Workspace account with an app password: a 16-character password that Google makes for one program, in place of your everyday Google password.

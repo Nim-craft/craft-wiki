@@ -6,7 +6,7 @@ sidebar:
 ---
 
 :::note[Third-Party Application]
-MailCraft is an independent open-source application maintained by UCS Care Group. For upstream documentation, see the [MailCraft repository](https://github.com/UCS-Care-Group/mailcraft).
+MailCraft is an independent open-source application maintained by UCS Care Group. For upstream documentation, see the [MailCraft repository](https://github.com/UCSLabs/mailcraft).
 :::
 
 ## Try it without your own mail
@@ -46,4 +46,4 @@ On Windows and Linux, choose MailCraft as your mail program in the system's sett
 ## Next steps
 
 - Read [Workflows](/apps/mailcraft/workflows/) for search, rules, the calendar and importing mail.
-- Want to test it on your own mail? [Sign up as a tester](https://github.com/UCS-Care-Group/mailcraft/issues/new?template=tester-signup.yml).
+- Want to test it on your own mail? [Sign up as a tester](https://github.com/UCSLabs/mailcraft/issues/new?template=tester-signup.yml).
