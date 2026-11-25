@@ -21,6 +21,10 @@ MailCraft is free and open source under the MIT licence, written from scratch in
 
 Open an issue on the [MailCraft issue tracker](https://github.com/UCSLabs/mailcraft/issues). Search the existing issues first in case someone has already reported it.
 
+:::caution[Security vulnerabilities]
+Don't open a public issue for a security vulnerability. [Report it privately on GitHub](https://github.com/UCSLabs/mailcraft/security/advisories/new) instead, as the [MailCraft security policy](https://github.com/UCSLabs/mailcraft/blob/main/SECURITY.md) asks.
+:::
+
 ## Download MailCraft
 
 Get the latest release from [MailCraft downloads](https://mailcraft.work/personal/download/). For installing and updating, see [Install and update](/apps/mailcraft/install-update/).
