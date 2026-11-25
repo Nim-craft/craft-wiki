@@ -38,9 +38,9 @@ To report a bug in MailCraft, open an issue on the [MailCraft issue tracker](htt
 
 MailCraft keeps sign-ins in the desktop's Secret Service (GNOME Keyring or KWallet). Make sure one of them is running and unlocked. Remembering sign-ins across a restart on Linux isn't fully proven yet.
 
-## Something Outlook does is missing
+## A feature you need is missing
 
-MailCraft doesn't have every Outlook feature yet. Printing and `.ost`, `.msg` and `.olm` files are not supported. The full list is in [Where MailCraft falls short](https://github.com/UCSLabs/mailcraft/blob/main/docs/gaps.md).
+MailCraft doesn't have every feature yet. Printing and `.ost`, `.msg` and `.olm` files are not supported. The full list is in [Where MailCraft falls short](https://github.com/UCSLabs/mailcraft/blob/main/docs/gaps.md).
 
 ## Getting help
 

@@ -42,7 +42,7 @@ For a Microsoft account, open **File › Info › Automatic Replies**. You can s
 ## Bring mail in and out
 
 - **Import:** `.eml`, `.mbox`, `.ics` and `.vcf` files.
-- **Outlook data files:** **File › Open & Export › Import a .pst File** brings in mail and contacts (preview). Calendar items, tasks and notes are counted but not imported yet.
+- **`.pst` data files:** **File › Open & Export › Import a .pst File** brings in mail and contacts (preview). Calendar items, tasks and notes are counted but not imported yet.
 - **Save:** your mailbox can be saved as a `.mailcraft` file.
 
 ## Command line
